@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f3f6fd;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-center a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.icon {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Title Section */
+.content h1 {
+    font-size: 48px;
+    color: #007bff;
+    margin: 20px 0 10px;
+}
+
+.content p {
+    font-size: 16px;
+    margin: 8px;
+}
+
+.install-btn {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Feature Buttons */
+.features {
+    margin-top: 40px;
+}
+
+.highlight,
+.semesters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.button {
+    padding: 14px 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.rainbow {
+    background: linear-gradient(45deg, #007cf0, #00dfd8);
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.blue {
+    background-color: #007bff;
+    color: white;
+}
